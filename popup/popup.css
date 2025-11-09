@@ -1,0 +1,101 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+
+body {
+  width: 320px;
+  background: #0f0f0f;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #2a2a2a; 
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  padding: 20px 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 4px 0;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  width: 100%;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+#result-box {
+  width: 100%;
+  margin-top: 10px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+#word-title {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+#meaning {
+  font-size: 13px;
+  color: #bbb;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+footer {
+  margin-top: 18px;
+  font-size: 11px;
+  color: #777;
+}
+
+.hidden {
+  display: none;
+}

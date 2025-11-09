@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TextPoacher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TextPoacher</h1>
+    <p class="subtitle">Instant Word Meaning</p>
+
+    <div class="search-box">
+      <input type="text" id="word" placeholder="Enter a word..." autocomplete="off">
+      <button id="lookup">Poach</button>
+    </div>
+
+    <div id="result-box" class="hidden">
+      <h3 id="word-title"></h3>
+      <p id="meaning"></p>
+    </div>
+
+    <footer>
+      <p>Made by <strong>TextPoacher</strong></p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
