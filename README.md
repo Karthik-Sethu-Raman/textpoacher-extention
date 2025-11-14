@@ -1,4 +1,4 @@
-# TextPoacher — Highlight-to-Define Chrome Extension
+# TextPoacher: Highlight-to-Define Chrome Extension
 
 TextPoacher is a minimalist Chrome extension that lets you highlight any word on any webpage to instantly view its meaning in a sleek popup.
 Built with Manifest V3, JavaScript, and DictionaryAPI, it’s fast, safe, and completely offline-friendly once loaded.
@@ -7,11 +7,11 @@ Built with Manifest V3, JavaScript, and DictionaryAPI, it’s fast, safe, and co
 
 ## Features
 
-* Instant definitions — highlight a word, and the meaning appears instantly.
-* Shadow-DOM popup — isolated from site styles, looks clean everywhere.
-* Modern dark UI — rounded corners, subtle animations, and responsive design.
-* Privacy-respecting — no tracking, no storage, no analytics.
-* Works on almost every website — CSP-safe and lightweight.
+* Instant definitions: highlight a word, and the meaning appears instantly.
+* Shadow-DOM popup: isolated from site styles, looks clean everywhere.
+* Modern dark UI: rounded corners, subtle animations, and responsive design.
+* Privacy-respecting: no tracking, no storage, no analytics.
+* Works on almost every website: CSP-safe and lightweight.
 
 ---
 
@@ -99,7 +99,7 @@ All definitions are fetched directly from the public Dictionary API.
 **Karthik Sethuraman**
 Built in 2025 as a lightweight productivity extension.
 
-"Created to make learning words frictionless — just highlight and poach!"
+"Created to make learning words frictionless —> just highlight and poach!"
 
 ---
 
